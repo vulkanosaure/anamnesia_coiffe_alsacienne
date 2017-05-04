@@ -10,6 +10,7 @@ package game
 		public function TestGit() 
 		{
 			trace("hello git");
+			trace("user 2 added this line");
 			
 		}
 		
