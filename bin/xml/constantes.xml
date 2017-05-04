@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<config>
+		<mouse_visible>1</mouse_visible>
+		<delay_iddle>180</delay_iddle>
+		<!--<delay_iddle>180</delay_iddle>-->
+		<delay_anim_home>3.0</delay_anim_home>
+		<time_anim_diapo>5.0</time_anim_diapo>
+		<langs>fr</langs>		<!-- fr,en,de-->
+		
+	</config>
+	
+	<diapo_menu>
+		<item>images/diapo_menu/Fond_diapo_1.jpg</item>
+		<item>images/diapo_menu/Fond_diapo_2.jpg</item>
+	</diapo_menu>
+	
+</data>

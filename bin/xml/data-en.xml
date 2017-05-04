@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<en>
+		<home>
+			<title><![CDATA[LES COIFFES<br />ALSACIENNES]]></title>
+			<subtitle><![CDATA[Touchez l'écran pour commencer...]]></subtitle>
+		</home>
+		
+		<menu>
+			<collection><![CDATA[TOUTE<br />LA COLLECTION]]></collection>
+			<territoire><![CDATA[TECHNIQUES ET<br />CONFECTION]]></territoire>
+			<histoire><![CDATA[HISTOIRE DES<br />COIFFES EN ALSACE]]></histoire>
+			<game_compose><![CDATA[COMPOSE<br />TA COIFFE !]]></game_compose>
+			<game_coiffe><![CDATA[INCOLLABLE<br />SUR LES COIFFES ?]]></game_coiffe>
+			<game_memory><![CDATA[MÉMORY]]></game_memory>
+			<incontournables><![CDATA[LES INCONTOURNABLES]]></incontournables>
+		</menu>
+		
+		<header>
+			<collection>
+				<title><![CDATA[LA COLLECTION]]></title>
+				<subtitle><![CDATA[Sélectionnez une coiffe pour en savoir plus...]]></subtitle> 
+			</collection>
+			
+			<incontournables>
+				<title><![CDATA[LES INCONTOURNABLES]]></title>
+			</incontournables>
+			
+			<histoire>
+				<title><![CDATA[HISTOIRE DES COIFFES EN ALSACE]]></title>
+				<subtitle><![CDATA[L’image de la coiffe à travers les époques.]]></subtitle>
+			</histoire>
+			
+			<territoire>
+				<title><![CDATA[TECHNIQUES ET CONFECTION]]></title>
+				<subtitle><![CDATA[Un savoir-faire codifié.]]></subtitle>
+			</territoire>
+			
+			<game_compose>
+				<title><![CDATA[À TOI DE JOUER !]]></title>
+				<subtitle><![CDATA[COMPOSE TA COIFFE !]]></subtitle>
+			</game_compose>
+			
+			<game_coiffe>
+				<title><![CDATA[QUIZZ !]]></title>
+				<subtitle><![CDATA[INCOLLABLE SUR LES COIFFES ?]]></subtitle>
+			</game_coiffe>
+			
+			<game_memory>
+				<title><![CDATA[À TOI DE JOUER !]]></title>
+				<subtitle><![CDATA[MEMORY]]></subtitle>
+			</game_memory>
+		</header>
+		
+		
+		
+		<credits><![CDATA[<span class='MS900_36_FFFFFF'>CRÉDITS</span><br />
+		
+<span class='MS900_15_FFFFFF'>Aenean sagittis nibh a arcu posuere laoreet sed eu nulla. Mauris sem velit, iaculis non maximus eu.</span><br />
+
+<span class='MS700_19_FFFFFF'>COLLECTIONS</span><br />
+
+<span class='MS300_15_FFFFFF'>Lorem ipsum dolor sit amet
+Consectetur adipiscing elit. 
+Nunc consectetur tortor in scelerisque bibendum.</span>
+<br />
+<span class='MS700_19_FFFFFF'>PHOTOGRAPHIES</span><br />
+
+<span class='MS300_15_FFFFFF'>Lorem ipsum dolor sit amet
+Consectetur adipiscing elit. 
+Nunc consectetur tortor in scelerisque bibendum.</span>]]></credits>
+		
+		<global>
+			<restart><![CDATA[RECOMMENCER]]></restart>
+			<btn_close><![CDATA[FERMER]]></btn_close>
+		</global>
+		
+		
+		<histoire>
+			<content>
+				<item>
+					<menu_title><![CDATA[SYMBOLIQUE ET PATRIMOINE]]></menu_title>
+					<text><![CDATA[<span class='MS900_20_FFFFFF'>SYMBOLE DE LA COIFFE<br /></span>
+	<span class='MS500_18_FFFFFF'>Un accessoire pas si anodin<br /><br /></span>
+	<span class='MS100_15_FFFFFF'>La coiffe alsacienne renvoie souvent au nœud noir. Pourtant, il n’a été porté que dans une petite partie de l’Alsace durant un temps limité. Ces coiffes témoignent d’un patrimoine très riche et diversifié selon les localités. Vous en découvrirez les plus emblématiques, toutes issues du fond muséal de l’association des Amis de la Maison du Kochersberg.
+
+Après la défaite de 1870, l’Alsace est devenue allemande. Un courant teinté de revanche, revendique le nœud noir comme symbole d’une Alsace française. Le dessinateur Hansi le complète même d’une cocarde tricolore. 
+Lors de la Libération, ce nœud à cocarde suscite l’enthousiasme des Alsaciens qui s’empressent d’en fabriquer de manière parfois rudimentaire. Les images du Général Leclerc traversant les villages pour libérer Strasbourg fixe à jamais celles des femmes portant ces attributs.
+
+Dans les années 2010, le nœud est devenu le symbole d’un marketing alsacien, avec un bretzel en forme de coiffe. Cette image uniformisée contraste avec la variété des coiffes.
+Elles reflètent en effet une société où chaque localité, chaque famille raconte sa propre histoire au travers de sa tenue et de son couvre-chef.
+
+Grâce aux membres de l’association des Amis de la Maison du Kochersberg, les habitants de Truchtersheim et d’autres localités alsaciennes ont permis de constituer cette collection, par leurs dons d’héritages familiaux.</span>]]></text>
+					<img>images/histoire/img0.jpg</img>
+				</item>
+				
+				<item>
+					<menu_title><![CDATA[DES TEMPS ANCIENS À LOUIS XIV]]></menu_title>
+					<text><![CDATA[<span class='MS900_20_FFFFFF'>DE LA PROTOHISTOIRE AU ROI SOLEIL<br /></span>
+	<span class='MS500_18_FFFFFF'>La vêtement, marqueur religieux et social<br /><br /></span>
+	<span class='MS100_15_FFFFFF'>Des temps anciens, l’Alsace conserve les usages vestimentaires. Les croisés introduisent les arts d’Orient et à partir de 1365, les mercenaires anglais et français laissent les bonnets pointus. Au milieu du XVe siècle, la mode de la cour de Bourgogne exporte la coiffe à « hennin » dont la hauteur varie suivant la condition sociale. 
+
+La Réforme instaure pour la femme protestante des habits plus austères, aux couleurs plus discrètes. Présente en Alsace depuis l’époque romaine, les Juifs réside à la campagne. Comme les protestants, ils ne peuvent habiter les possessions de l’Evêque de Strasbourg. Cependant, des villages appartenant en partie à l’Evêque et à des seigneurs protestants ou catholiques, les accueillent moyennant un impôt. Au quotidien, les modes de trois religions cohabitent, les juives et les protestantes vêtues plus modestement.
+
+Une partie de l’Alsace rattachée au royaume de France sous Louis XIV, la coiffe subit l’influence de deux modes : la mode française et catholique chez la noblesse alsacienne et la mode allemande et protestante chez les patriciens de Strasbourg ou à la cour des Hanau-Lichtenberg à Bouxwiller.
+Le Spitzehut est un feutre noir en forme de bicorne aux pointes dépassant les épaules. Réservé aux fêtes et porté par les jeunes filles patriciennes de Strasbourg, il est immortalisé en 1703 par Nicolas de Largillère avec « La belle strasbourgeoise ».</span>]]></text>
+					<img>images/histoire/img0.jpg</img>
+				</item>
+				
+				<item>
+					<menu_title><![CDATA[DU XVIIIE SIÈCLE À LA RÉVOLUTION]]></menu_title>
+					<text><![CDATA[<span class='MS900_20_FFFFFF'>DES LUMIÈRES À MARIANNE<br /></span>
+	<span class='MS500_18_FFFFFF'>Coiffes à bec et calottes<br /><br /></span>
+	<span class='MS100_15_FFFFFF'>Dès la seconde moitié du XVIII° siècle, les femmes de l’aristocratie et les bourgeoises savernoises et strasbourgeoises portent la coiffe à trois becs brodée d’or et d’argent, dite De Schnepper. Elle comporte une pointe frontale et deux pointes temporales. Précieuse et raffinée, elle est réservée à l’élite par les édits somptuaires.
+
+Ces règlements contrôlent les dépenses des citoyens et restreignent les plus luxueuses. Hérités de Philippe IV en 1294, ils répriment ensuite l'extravagance vestimentaire et maintiennent l’ordre social. Un édit de 1628, régulièrement révisé jusqu’en 1708, spécifie quels tissus doivent être portés et par qui, interdit les ornements en or ou en argent et le velours aux paysans. Il est aboli par la Révolution. 
+La paysanne protège ses cheveux par un fichu, qui couvre le cou ou les épaules. Sa calotte enveloppe largement la tête et elle remplacera le fichu pour se les événements religieux ou festifs. En soie ou en brocart pour la bourgeoise, elle est en lin pour la paysanne. 
+
+Le 26 octobre 1793, le comité révolutionnaire de Strasbourg demande aux femmes de « donner en offrande » à la République leurs bonnets et coiffes. Les représentants de la Constitution déclarent un mois plus tard aux Strasbourgeoises « les citoyennes de Strasbourg sont invitées à quitter les modes allemandes puisque leur cœur est français… ».</span>]]></text>
+					<img>images/histoire/img0.jpg</img>
+				</item>
+			</content>
+			
+			<scroll_help><![CDATA[FAIRE DÉFILER]]></scroll_help>
+			
+		</histoire>
+		
+		
+		
+		
+		
+		
+		
+		<territoire>
+			<content>
+				<item>
+					<menu_title><![CDATA[ANATOMIE D'UNE COIFFE]]></menu_title>
+					<text><![CDATA[<span class='MS900_20_FFFFFF'>LES PARTIES ET LEUR ENTRETIEN<br /></span>
+	<span class='MS500_18_FFFFFF'>Un savant assemblage, où chaque pièce compte<br /><br /></span>
+	<span class='MS100_15_FFFFFF'>La coiffe est une pièce de parure qui épouse la forme de la tête. Elle est composée de :
+ 
+- Le fond : la pièce la plus décorée. Rond ou carré, brodé de motifs floraux, il est souvent froncé et sert à ramasser les cheveux, les cacher, les emprisonner. Il doit remplacer visuellement le volume de la chevelure.
+
+- La passe : le fond est rattaché à la passe qui couvre le dessus de la tête. Parfois en avancée plus ou moins prononcée sur le visage, elle l’entoure. Le devant de la passe, partie brodée ou gansée, peut être orné de volants, de ruchés ou de dentelles.
+
+- Les barbes : brides ou rubans se nouent sous le menton, pendent ou sont remontés de chaque côté du visage.
+
+- Un bavolet (option) : il peut descendre vers le cou et allonger la coiffe vers l’arrière.
+Avec l’émancipation des femmes, la coiffe va évoluer. Le bandeau (la passe) recule pour libérer la chevelure. Les barbes s’élargissent, le nœud sous le menton glisse sur le côté. Le fond s’amollit et prend volume. 
+Pour entretenir la soie, il faut mélanger 250 ml d’eau avec 2 à 3 c. à s. de vinaigre blanc. En imbiber un linge blanc en coton et frotter le bonnet ou le ruban. Ensuite repasser le ruban légèrement humide et faire sécher le bonnet à l’ombre en le bourrant de papier.  
+
+Pour la coiffe, rien n’est jeté, tout ce qui peut être utilisé est réemployé. Les femmes sont passé maitre dans l’art de faire du neuf avec du vieux !</span>]]></text>
+					<img>images/territoire/img0.jpg</img>
+				</item>
+				
+				<item>
+					<menu_title><![CDATA[GLOSSAIRE 1]]></menu_title>
+					<text><![CDATA[<span class='MS900_20_FFFFFF'>LA COIFFE DE A À H<br /></span>
+	<span class='MS500_18_FFFFFF'>Quelques définitions de A à H<br /><br /></span>
+	<span class='MS100_15_FFFFFF'>Brocart (m.) : étoffe de soie rehaussée de dessins brochés d’or et d’argent. Sa production décline après la révolution.
+
+Brocher : procédé de tissage formant sur l’étoffe des dessins. 
+
+Broderie brochée : broderie très fine en soie, camaïeu rebrodée de métal dans le même sens que la soie.  
+
+Calotte (f.) : élément en tissu matelassé ou en carton cousu posé directement sur la tête, qui supporte mousselines, tulle et dentelles.
+
+Cannetille (f.) : fil de métal mat ou brillant d’or ou d’argent, de cuivre tourné en spirale. Utilisé dans la broderie des plastrons et des bonnets.  
+
+Cordonnet : petit cordon de fil de soie, d’or ou d’argent.
+
+Cotonnade (f.) : étoffe de coton pur ou mélangé avec d’autres fibres.
+
+Damassé : tissu à la surface duquel on fait apparaître des dessins uniquement par opposition d’armures à effet de chaîne et d’armures à effet de trame. 
+
+Dormeuse (f.) : coiffe de tulle fin, paillée et amidonnée fort à la mode au XIXe siècle. 
+
+Friselis (m.) : onomatopée évoquant un bruit doux, un murmure.
+
+Ganse (f.) : cordonnet rond ou ruban plat tressé employés soit pour attacher, soit pour orner ou border un vêtement ou un tissu d'ameublement.
+
+Hâlette (f.) : coiffe avec une passe qui avance largement sur le visage et un bavolet qui couvre la nuque et cache les joues pour les protéger du soleil.</span>]]></text>
+					<img>images/territoire/img0.jpg</img>
+				</item>
+				
+				<item>
+					<menu_title><![CDATA[GLOSSAIRE 2]]></menu_title>
+					<text><![CDATA[<span class='MS900_20_FFFFFF'>LA COIFFE DE J À Z<br /></span>
+	<span class='MS500_18_FFFFFF'>Quelques définitions de J à Z<br /><br /></span>
+	<span class='MS100_15_FFFFFF'>Jacquard : du nom de l’inventeur du métier à tisser. Les tricots fait main ou à la machine s’inspirent du tissu jacquard, pour des motifs compliqués.
+
+Linon (m.) : toile de lin, très claire et très fine.
+
+Matelassé : se dit d’un tissu pourvu d’un rembourrage et d’une doublure appliqué l’un à l’autre par une piqûre. 
+
+Percale (f.) : tissu de coton très fin de qualité supérieure. Appréciée pour son toucher lisse, soyeux et doux. 
+
+Résille (f.) : filet généralement de petite dimension, utilisé par exemple pour décorer  une coiffe tout en la laissant visible.
+
+Ruché (m.) : correspond en couture, à plusieurs lignes de piqures formant un espace froncé. 
+
+Serge (f.) : désigne l'ensemble des textiles élaborés par un tissage qui se caractérisent par la présence de côtes obliques sur l'endroit et sont unis sur l'envers. Elle peut être à effet chaîne ou trame. Le fil de trame passe sous un, puis sur trois autres fils de chaîne en décalant d'un fil à chaque passage d'où l'effet d'oblique sur l'endroit.
+
+Toile (f.) : tissu de lin, de chanvre ou de coton.  
+
+Tulle (m.) : tissu mince, léger, transparent et vaporeux formé par un réseau de mailles régulières de fins fils de coton, de lin, de soie ou de laine. 
+
+Valencienne (f.) : dentelle au fuseau à dessin floral sur fond de réseau à mailles régulières. 
+
+Velours pressé ou gaufré (m.) : imprimé sur des étoffes au moyen de fers chauds ou de cylindres gravés de dessins.</span>]]></text>
+					<img>images/territoire/img0.jpg</img>
+				</item>
+				
+				
+			</content>
+			
+		</territoire>
+		
+		
+		
+		
+		
+		
+		<memory>
+			
+			
+			<footer><![CDATA[Retourne les cartes pour découvrir toutes les paires !]]></footer>
+			
+		</memory>
+		
+		
+		<quizz>
+			<questions>
+				
+				<item>
+					<question><![CDATA[Depuis les grecs et les romains dans l’Antiquité, des édits ayant pour objet de contrôler les dépenses des citoyens et plus particulièrement de restreindre les dépenses de luxe sont établis. En France en 1628, un édit très détaillé est promulgué et spécifie quels tissus doivent être portés et par qui. 
+Comment appelle-t-on ces édits ?]]></question>
+					<img>images/quizz/image1.png</img>
+					
+					<reponses> 
+						<reponse1><![CDATA[Les édits de Nantes]]></reponse1>
+						<reponse2><![CDATA[Les édits somptuaires]]></reponse2>
+						<reponse3><![CDATA[Les édits d’économie]]></reponse3>
+					</reponses>
+					
+					<explication><![CDATA[L’édit a été révisé en 1660, 1678, 1685 et 1708. Il spécifie quels tissus doivent être portés et par qui. Il interdit broderies, dentelles, ornements en or ou en argent et le velours aux paysans pour marquer les différences sociales. Il est aboli par la révolution.]]></explication>
+					<correct>2</correct>
+				</item>
+				
+				<item>
+					<question><![CDATA[Le noeud noir est celui gardé dans l’imagerie collective des coiffes alsaciennes. Après la défaite de Sedan de l’armée française en 1870, l’Alsace est annexée à l’Allemagne. 
+La Schlùpfkàpp (le noeud noir) symbolise alors : ]]></question>
+					<img>images/quizz/image1.png</img>
+					
+					<reponses> 
+						<reponse1><![CDATA[La religion protestante]]></reponse1>
+						<reponse2><![CDATA[L’enthousiasme positif de cette annexion]]></reponse2>
+						<reponse3><![CDATA[Une Alsace française]]></reponse3>
+					</reponses>
+					
+					<explication><![CDATA[Après la défaite de Sedan en 1870, l’Alsace est cédée aux états allemands. Les intellectuels français vont entretenir l’idée que l'Alsace doit redevenir française, qu’une revanche est à prendre. Ce courant à la fois littéraire et artistique utilise le nœud noir comme symbole d’une Alsace française. Le dessinateur alsacien Hansi participe à ce mouvement et complète le nœud noir d’une cocarde tricolore.]]></explication>
+					<correct>3</correct>
+				</item>
+				
+				<item>
+					<question><![CDATA[Une coiffe est formé d’un bonnet seul ou d’un bonnet supportant un ruban, plus ou moins conséquent. Le bonnet est composé de plusieurs parties, brodés ou non. 
+À ton avis, combien ?]]></question>
+					<img>images/quizz/image1.png</img>
+					
+					<reponses> 
+						<reponse1><![CDATA[3]]></reponse1>
+						<reponse2><![CDATA[5]]></reponse2>
+						<reponse3><![CDATA[7]]></reponse3>
+					</reponses>
+					
+					<explication><![CDATA[La coiffe est une pièce de parure qui épouse la forme de la tête. Elle est composée de plusieurs parties : 
+• Le fond : c’est la pièce de la coiffe la plus décorée. Rond ou carré, généralement brodé de motifs floraux, il est souvent froncé et sert à ramasser les cheveux, les cacher, les emprisonner. Il doit remplacer visuellement le volume de la chevelure.
+• La passe : le fond est rattaché à la passe qui couvre le dessus de la tête. Parfois en avancée plus ou moins prononcée sur le visage, elle l’entoure. Le devant de la passe, partie brodée ou gansée, peut être orné de volants, de ruchés ou de dentelles.
+• Les barbes : brides ou rubans se nouent sous le menton, pendent ou sont remontées de chaque côté du visage.
+• Parfois d’un bavolet : il peut descendre vers le cou et allonger la coiffe vers l’arrière]]></explication>
+					<correct>1</correct>
+				</item>
+				
+				<item>
+					<question><![CDATA[Depuis plus de 20ans, l’association des Amis de la Maison du Kochersberg répertorie et classe son fond de coiffes alsaciennes, variées et témoignant d’un patrimoine très riche et diversifié. 
+Combien de coiffes dénombre-t-on en Alsace ?]]></question>
+					<img>images/quizz/image1.png</img>
+					
+					<reponses> 
+						<reponse1><![CDATA[50]]></reponse1>
+						<reponse2><![CDATA[900]]></reponse2>
+						<reponse3><![CDATA[2700]]></reponse3>
+					</reponses>
+					
+					<explication><![CDATA[Les coiffes alsaciennes sont très variées et témoignent d’un patrimoine très riche et diversifié selon les villages et localités. On en dénombre plus de 900 … et vous allez découvrir les plus emblématiques dans cette brochure, toutes issues du fond muséal de l’association des Amis de la Maison du Kochersberg, l’un des plus riches d’Alsace. ]]></explication>
+					<correct>2</correct>
+				</item>
+				
+				<item>
+					<question><![CDATA[Les couleurs des rubans correspondent à la situation matrimoniale et à la religion de celle qui porte la coiffe. 
+Ainsi, une coiffe à bonnet noir avec un ruban noir signifie :]]></question>
+					<img>images/quizz/image1.png</img>
+					
+					<reponses> 
+						<reponse1><![CDATA[Une veuve protestante]]></reponse1>
+						<reponse2><![CDATA[Une jeune fille catholique]]></reponse2>
+						<reponse3><![CDATA[Une femme mariée protestante]]></reponse3>
+					</reponses>
+					
+					<explication><![CDATA[La coiffe de la femme mariée se compose d’un petit bonnet noir garni à l’arrière d’un petit nœud également noir. Il est à noter que pour la femme protestante les rubans ne sont pas noués mais encadrent librement le visage tandis que la femme catholique les noue.]]></explication>
+					<correct>3</correct>
+				</item>
+				
+				<item>
+					<question><![CDATA[La longueur du ruban diffère selon la coiffe catholique ou protestante. 
+La catholique est plus longue, mais combien de mètre fait le ruban ?]]></question>
+					<img>images/quizz/image1.png</img>
+					
+					<reponses> 
+						<reponse1><![CDATA[15,70 m]]></reponse1>
+						<reponse2><![CDATA[4,20 m]]></reponse2>
+						<reponse3><![CDATA[7,50 m]]></reponse3>
+					</reponses>
+					
+					<explication><![CDATA[Le ruban de soie des femmes catholiques est plus long que celui des femmes protestantes (4.20 m pour la catholique contre 3.30 m pour la protestante). Il descend jusqu’à la ceinture pour la catholique et s’arrête aux épaules chez la protestante. Il est parfois complété à ses extrémités d’une dentelle noire. Sa largeur augmente au fur et à mesure que le XIXe siècle avance pour passer de 11 cm à plus de 30 cm à l’aube du nouveau siècle.]]></explication>
+					<correct>2</correct>
+				</item>
+				
+				<item>
+					<question><![CDATA[Dans le pays de Hanau et dans le Kochersberg, les motifs utilisés pour décorer les bonnets sans ruban sont également codifiés. 
+Aussi, ils diffèrent selon la religion. Chez les catholiques, on retrouve :]]></question>
+					<img>images/quizz/image1.png</img>
+					
+					<reponses> 
+						<reponse1><![CDATA[Des motifs géométriques]]></reponse1>
+						<reponse2><![CDATA[Des roses et des épis de blé]]></reponse2>
+						<reponse3><![CDATA[Des motifs demi-lune]]></reponse3>
+					</reponses>
+					
+					<explication><![CDATA[Les bonnets catholiques sont richement brodés d’épis de blé, de roses ou de fleurs des champs. Les broderies peuvent être rehaussées de verroterie ou de perles fines, de métal doré, de cannetille et de paillettes. Le raisin décore les coiffes de mariage. Cette coiffe sera encore portée par après. La broderie sur carton ou sur plusieurs épaisseurs de papier permet de rehausser les motifs.  ]]></explication>
+					<correct>2</correct>
+				</item>
+				
+				<item>
+					<question><![CDATA[À Westhoffen (dans la région de Molsheim, dans le Bas-Rhin), la coiffe se singularise par un bonnet froncé ou matelassé simple surnommé Soïjmàje. Quelle est la traduction française de ce surnom ?À Westhoffen (dans la région de Molsheim, dans le Bas-Rhin), la coiffe se singularise par un bonnet froncé ou matelassé simple surnommé Soïjmàje. 
+Quelle est la traduction française de ce surnom ?]]></question>
+					<img>images/quizz/image1.png</img>
+					
+					<reponses> 
+						<reponse1><![CDATA[Estomac de porc]]></reponse1>
+						<reponse2><![CDATA[Tête de bœuf]]></reponse2>
+						<reponse3><![CDATA[Poumon de poule]]></reponse3>
+					</reponses>
+					
+					<explication><![CDATA[Le bonnet se noue sous le menton avec des brides en soie.]]></explication>
+					<correct>1</correct>
+				</item>
+				
+				<item>
+					<question><![CDATA[Plusieurs tissus sont utilisés dans la fabrication des coiffes et varient selon la richesse des femmes.
+Dans l’éventail de matériaux, on retrouve notamment le tulle. 
+Quels sont les caractéristiques de ce tissu ?]]></question>
+					<img>images/quizz/image1.png</img>
+					
+					<reponses> 
+						<reponse1><![CDATA[Tissu mince, léger, transparent et vaporeux]]></reponse1>
+						<reponse2><![CDATA[Sorte de toile de lin, très claire et très fine]]></reponse2>
+						<reponse3><![CDATA[Étoffe de coton pur ou mélangé avec d’autres fibres]]></reponse3>
+					</reponses>
+					
+					<explication><![CDATA[• La cotonnade : Etoffe de coton pur ou mélangé avec d’autres fibres.
+• Le linon : Sorte de toile de lin, très claire et très fine.
+• Le tulle : Tissu mince, léger, transparent et vaporeux formé par un réseau de mailles régulières de fins fils de coton, de lin, de soie ou de laine. ]]></explication>
+					<correct>1</correct>
+				</item>
+				
+				<item>
+					<question><![CDATA[Autour de quelles années les haut-rhinoises ont-elles abandonné leurs coiffes pour adopter la mode de Mulhouse ?]]></question>
+					<img>images/quizz/image1.png</img>
+					
+					<reponses> 
+						<reponse1><![CDATA[1800]]></reponse1>
+						<reponse2><![CDATA[1850]]></reponse2>
+						<reponse3><![CDATA[1950]]></reponse3>
+					</reponses>
+					
+					<explication><![CDATA[Les femmes abandonnent la coiffe dès les années 1850 dans le Haut-Rhin pour adopter la mode de Mulhouse. Dans le Bas-Rhin, la coiffe sera portée jusqu’à la 2eme guerre mondiale pour les célébrations religieuses. Peu à peu les femmes se convertissent au chapeau et gomment les informations livrées par la coiffe. La lutte pour l’égalité rejette les codes vestimentaires.]]></explication>
+					<correct>2</correct>
+				</item>
+				
+				
+			</questions>
+			
+			<good_answer><![CDATA[Bonne réponse !]]></good_answer>
+			<wrong_answer><![CDATA[Mauvaise réponse]]></wrong_answer>
+			
+			<next_question><![CDATA[QUESTION SUIVANTE]]></next_question>
+			<title_end><![CDATA[FÉLICITATIONS !]]></title_end>
+			<btn_restart><![CDATA[RECOMMENCER]]></btn_restart>
+			<btn_next><![CDATA[QUESTION<br />SUIVANTE]]></btn_next>
+			
+			<desc_end><![CDATA[lazerha lzkrjhaz lrjhz erpotiu pdgkj smlkjzpiurtpzeitr mldkj giouz tmz. mzoeitu zpoeiut pzeiut zpeoitu zpeoit ez.]]></desc_end>
+			
+			<footer><![CDATA[Choisis la bonne réponse !]]></footer>
+			
+			<title_question><![CDATA[QUESTION %%index_question%%]]></title_question>
+			
+		</quizz>
+		
+		
+		
+		
+		
+		
+		
+		<game_compose>
+			
+			<consignes><![CDATA[CONSIGNE
+Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Nunc consectetur tortor in
+scelerisque bibendum. Pellentesque quis nunc
+luctus, cursus elit id, suscipit urna. Integer
+lorem metus, porta eu aliquet.
+Sed aliquet nullam !]]></consignes>
+
+			<next_step><![CDATA[ÉTAPE
+SUIVANTE]]></next_step>
+			<prev_step><![CDATA[ÉTAPE
+PRÉCÉDENTE]]></prev_step>
+			
+			<title_step><![CDATA[ÉTAPE %%x%%]]></title_step>
+
+			<steps>
+				
+				<step1>
+					<desc><![CDATA[Select a shape : ]]></desc>
+				</step1>
+				<step2>
+					<desc><![CDATA[Select a x : ]]></desc>
+				</step2>
+				<step3>
+					<desc><![CDATA[Select a y : ]]></desc>
+				</step3>
+				<step4>
+					<desc><![CDATA[Select a z : ]]></desc>
+				</step4>
+			</steps>
+			
+			
+			<situations>
+				<name_1>
+					<item>
+						<name><![CDATA[Name 1]]></name>
+						<icon>icon1</icon>
+						<img>image1</img>
+					</item>
+					<item>
+						<name><![CDATA[Name 2]]></name>
+						<icon>icon2</icon>
+						<img>image2</img>
+					</item>
+				</name_1>
+			
+			</situations>
+			
+			
+			
+		</game_compose>
+		
+		
+		
+		
+		
+		
+		<collection>
+			
+			<help_detail><![CDATA[Sélectionnez un détail<br />pour le voir de plus près...]]></help_detail>
+			<btn_page_prev><![CDATA[PAGE<br />PRÉCÉDENTE]]></btn_page_prev>
+			<btn_page_next><![CDATA[PAGE<br />SUIVANTE]]></btn_page_next>
+			<btn_detail_prev><![CDATA[COIFFE<br />PRÉCÉDENTE]]></btn_detail_prev>
+			<btn_detail_next><![CDATA[COIFFE<br />SUIVANTE]]></btn_detail_next>
+			<btn_vignette_prev><![CDATA[VIGNETTE<br />PRÉCÉDENTE]]></btn_vignette_prev>
+			<btn_vignette_next><![CDATA[VIGNETTE<br />SUIVANTE]]></btn_vignette_next>
+			
+			<btn_zoom_in><![CDATA[VOIR<br />EN GRAND]]></btn_zoom_in>
+			<btn_zoom_out><![CDATA[VOIR<br />EN PETIT]]></btn_zoom_out>
+			
+			<filters>
+				<filter1><![CDATA[Catholique]]></filter1>
+				<filter2><![CDATA[Protestant]]></filter2>
+			</filters>
+			
+			
+			<items>
+				<item>
+					<texts>
+						<title><![CDATA[COIFFE FLEURIE IMPRIMÉE]]></title>
+						<address><![CDATA[Seconde moitié du XIXe siècle, Truchtersheim et les villages proches dédiés à la Vierge]]></address>
+						<desc><![CDATA[Catholique | jeune fille]]></desc>
+						<materiau_desc><![CDATA[Ruban en taffetas de soie fleuri, ivoire, moiré, bordé de bleu et imprimé d’un semis de fleurs fixé sur le bonnet par la bride. Le bleu est le symbole de la Vierge.<br/>Bonnet avec bride brodé au fil d’or de motifs de roses et d’épis de blé, de cannetille et de verroterie recevant le ruban de taffetas de soie.]]>
+						</materiau_desc>
+						<legend><![CDATA[]]></legend>
+					</texts>
+					<incontournable>1</incontournable>
+					<filtre>1</filtre>
+					
+					<images>
+						<path_big>images/collection/1/big/</path_big>
+						<path_small>images/collection/1/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+						</vignettes>
+					</images>
+				</item>
+						
+				<item>
+					<texts>
+						<title><![CDATA[COIFFE À MOTIF ÉCOSSAIS]]></title>
+						<address><![CDATA[Seconde moitié du XIXe siècle, Kochersberg]]></address>
+						<desc><![CDATA[Catholique | jeune fille d’origine un peu plus modeste]]></desc>
+						<materiau_desc><![CDATA[Ruban à motif écossais. Le ruban peut aussi être rayé. Il est maintenu par la bride du bonnet. <br/> Bonnet brodé au fil d’or de motifs de roses et d’épis de blé, de cannetille et de verroterie. La bride permet de fixer le ruban en taffetas de soie.]]>
+						</materiau_desc>
+						<legend><![CDATA[]]></legend>
+					</texts>
+					<incontournable>1</incontournable>
+					<filtre>1</filtre>
+					
+					<images>
+						<path_big>images/collection/2/big/</path_big>
+						<path_small>images/collection/2/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+						</vignettes>
+					</images>
+				</item>
+				
+				<item>
+					<texts>
+						<title><![CDATA[COIFFE NOIRE CATHOLIQUE]]></title>
+						<address><![CDATA[Environs de 1900, Kochersberg ou région de Brumath]]></address>
+						<desc><![CDATA[Catholique | femme mariée]]></desc>
+						<materiau_desc><![CDATA[Ruban noir bordé de franges retombant jusqu’à la ceinture fixée sur le bonnet par la bride. Le ruban faisait 10 cm de large en 1850, puis il a grandi pour atteindre une largeur de 30 cm en 1900. Les femmes l’arrangent en « plis solaires » à partir de 1880.<br/>Bonnet en velours pressé ou en soie ou en laine brodé au fil d’or de motifs de roses et d’épis de blé, de cannetille et de verroterie. La bride permet de fixer le ruban en taffetas de soie. ]]>
+						</materiau_desc>
+						<legend><![CDATA[]]></legend>
+					</texts>
+					<incontournable>1</incontournable>
+					<filtre>1</filtre>
+					
+					<images>
+						<path_big>images/collection/3/big/</path_big>
+						<path_small>images/collection/3/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+							<item>vignettes/detail-3.png</item>
+						</vignettes>
+					</images>
+				</item>
+				
+				<item>
+					<texts>
+						<title><![CDATA[COIFFE BRODÉE DE FLEURS <br/> SUR FOND NOIR]]></title>
+						<address><![CDATA[Environ de 1900, Kochersberg ou région de Brumath]]></address>
+						<desc><![CDATA[Catholique | jeune fille]]></desc>
+						<materiau_desc><![CDATA[Ruban : noir brodé de fleurs rallongé d’une dentelle valencienne. La largeur du ruban indique que cette coiffe a été portée aux environs de 1900. Le semis de fleur est caractéristique des jeunes filles catholiques de la région du Kochersberg ou de Brumath.<br/>Bonnet muni d’une bride comportant deux parties : le fond qui peut être décoré de broderies, la passe qui encadre la tête. Elle peut être décorée d’une chenillette en velours de soie ou d’une dentelle.]]>
+						</materiau_desc>
+						<legend><![CDATA[]]></legend>
+					</texts>
+					<incontournable>1</incontournable>
+					<filtre>1</filtre>
+					
+					<images>
+						<path_big>images/collection/4/big/</path_big>
+						<path_small>images/collection/4/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+						</vignettes>
+					</images>
+				</item>
+				
+				<item>
+					<texts>
+						<title><![CDATA[COIFFE NOIRE PROTESTANTE]]></title>
+						<address><![CDATA[Aux environs de 1900, Kochersberg et du Pays de Hanau]]></address>
+						<desc><![CDATA[Protestante ou Juive | jeune fille et femme mariée]]></desc>
+						<materiau_desc><![CDATA[Ruban noir retombant jusqu’aux épaules, fixé sur le bonnet au moyen d’une bride. <br/> Bonnet protestant garni d’une bride et brodé de motifs sobres. Ceux décorés de demi-lunes et de tulipes sont également portés par les femmes juives. Fin du XIXè siècle le bonnet peut être réalisé avec du velours pressé aux motifs de feuilles ou de fleurs.]]>
+						</materiau_desc>
+						<legend><![CDATA[]]></legend>
+					</texts>
+					<incontournable>1</incontournable>
+					<filtre>0</filtre>
+					
+					<images>
+						<path_big>images/collection/5/big/</path_big>
+						<path_small>images/collection/5/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+						</vignettes>
+					</images>
+				</item>
+				
+				<item>
+					<texts>
+						<title><![CDATA[COIFFE ROUGE DE GEISPOLSHEIM]]></title>
+						<address><![CDATA[Seconde moitié du XIXe siècle, Geispolsheim]]></address>
+						<desc><![CDATA[Catholique | jeune fille | été]]></desc>
+						<materiau_desc><![CDATA[La couleur rouge garance aurait été adoptée après la révolution en souvenir du sang versé par le maire et le curé exécutés par les révolutionnaires<br/>Ruban rouge garance cranté.<br/> Bonnet comportant une passe noire de forme caractéristique et un fond doré brodé.]]>
+						</materiau_desc>
+						<legend><![CDATA[]]></legend>
+					</texts>
+					<incontournable>1</incontournable>
+					<filtre>1</filtre>
+					
+					<images>
+						<path_big>images/collection/6/big/</path_big>
+						<path_small>images/collection/6/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+						</vignettes>
+					</images>
+				</item>
+				
+				<item>
+					<texts>
+						<title><![CDATA[COIFFE DE GESISPOLSHEIM]]></title>
+						<address><![CDATA[Seconde moitié du XIXe siècle, Geispolsheim]]></address>
+						<desc><![CDATA[Catholique | jeune fille et femme mariée | hiver pour les jeunes filles, en toutes saison pour les femmes mariées]]></desc>
+						<materiau_desc><![CDATA[Coiffe composée d’un bonnet froncé, en velours de soie brodé et d’un large ruban de soie placé sous l’oreille gauche.<br/>Ruban : Ruban moiré (effet changeant et chatoyant d’un tissu), fleuri ou écossais. <br/> Bonnet : Bonnet avec verroterie et broderie dorée.]]>
+						</materiau_desc>
+						<legend><![CDATA[]]></legend>
+					</texts>
+					<incontournable>1</incontournable>
+					<filtre>2</filtre>
+					
+					<images>
+						<path_big>images/collection/7/big/</path_big>
+						<path_small>images/collection/7/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+						</vignettes>
+					</images>
+				</item>
+				
+				<item>
+					<texts>
+						<title><![CDATA[BONNET À BEC]]></title>
+						<address><![CDATA[Première moitié du XIXe siècle, région de Strasbourg et le Ried]]></address>
+						<desc><![CDATA[Catholique | Bourgeoise]]></desc>
+						<materiau_desc><![CDATA[Coiffes de fête de brocart (motif roses) ou de soie. <br/> Bonnet : Bonnet à bec aussi dénommée calotte à bec. Ce bonnet avec une avancée frontale et aux découpes latérales arrondies s’enfonce confortablement sur la tête.]]>
+						</materiau_desc>
+						<legend><![CDATA[]]></legend>
+					</texts>
+					<incontournable>1</incontournable>
+					<filtre>1</filtre>
+					
+					<images>
+						<path_big>images/collection/8/big/</path_big>
+						<path_small>images/collection/8/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+						</vignettes>
+					</images>
+				</item>
+				
+				<item>
+					<texts>
+						<title><![CDATA[COIFFE DORÉE]]></title>
+						<address><![CDATA[XVIIIe siècle, au Sud de Strasbourg et dans le Grand Ried]]></address>
+						<desc><![CDATA[Catholique | bourgeoise des villes libres d’Alsace marquée par la mode germanique (Habsbourg, Saint Empire romain).]]></desc>
+						<materiau_desc><![CDATA[Bonnet doré de style baroque, brodé de fil d’or ou d’argent et de verroteries. Sur les bords s’appliquent de magnifiques dentelles au fuseau en or ou en argent. Elles se portent sur une sous-coiffe en linon, ou batiste, bordée de dentelles finement plissées ou tuyautées de largeur variable au Sud de Strasbourg et dans le Grand Ried. La forme du bonnet est caractéristique de la région d’origine.]]>
+						</materiau_desc>
+						<legend><![CDATA[]]></legend>
+					</texts>
+					<incontournable>1</incontournable>
+					<filtre>1</filtre>
+					
+					<images>
+						<path_big>images/collection/9/big/</path_big>
+						<path_small>images/collection/9/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+						</vignettes>
+					</images>
+				</item>
+				
+				<item>
+					<texts>
+						<title><![CDATA[BONNET À BRIDE]]></title>
+						<address><![CDATA[XIXe siècle, Westhoffen, en Alsace Bossue ou par les maraichères]]></address>
+						<desc><![CDATA[Protestante | Jeune fille et femme mariée | Il existe de nombreuses variantes aux dénominations savoureuses et imagées du Nord au Sud de l’Alsace]]></desc>
+						<materiau_desc><![CDATA[Bonnet à brides recouvrant les oreilles et nouées sous le menton. Réalisé en soie, en satin, en cotonnades ou en velours de soie. Richement brodé sur la partie arrière du fond et sur la passe.]]>
+						</materiau_desc>
+						<legend><![CDATA[]]></legend>
+					</texts>
+					<incontournable>1</incontournable>
+					<filtre>2</filtre>
+					
+					<images>
+						<path_big>images/collection/10/big/</path_big>
+						<path_small>images/collection/10/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+						</vignettes>
+					</images>
+				</item>
+				
+				<item>
+					<texts>
+						<title><![CDATA[PETIT BONNET]]></title>
+						<address><![CDATA[Cette coiffe n’a pas évolué depuis 1850, Oberseebach]]></address>
+						<desc><![CDATA[Protestante | jeune fille]]></desc>
+						<materiau_desc><![CDATA[Ruban : ruban rouge cranté revenant parallèlement aux bords se fixer en un nœud harmonieux sur le devant. Le nœud fait penser aux ailes d’un moulin à vent. <br/><br/>Bonnet : Petit bonnet réduit posé sur le dessus des cheveux relevés. Le petit bonnet est en brocart ou en soie brochée un peu raidi ou matelassé.]]>
+						</materiau_desc>
+						<legend><![CDATA[]]></legend>
+					</texts>
+					<incontournable>1</incontournable>
+					<filtre>2</filtre>
+					
+					<images>
+						<path_big>images/collection/11/big/</path_big>
+						<path_small>images/collection/11/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+						</vignettes>
+					</images>
+				</item>
+				
+				<item>
+					<texts>
+						<title><![CDATA[PETIT BONNET, ANCÊTRE DE LA<br/> COIFFE AU GRAND NOEUD]]></title>
+						<address><![CDATA[Vers 1835, Kochersberg]]></address>
+						<desc><![CDATA[]]></desc>
+						<materiau_desc><![CDATA[Ruban cranté de 4 cm de large se noue pour former un nœud simple sur le haut de la tête. Le ruban va s’élargir progressivement à partir de 1840 pour se dresser en éventail de part et d’autre de la bride qui le maintient. <br/>Bonnet du Kochersberg, de petite taille à nœud étroit posés sur la tête.]]>
+						</materiau_desc>
+						<legend><![CDATA[]]></legend>
+					</texts>
+					<incontournable>1</incontournable>
+					<filtre>1</filtre>
+					
+					<images>
+						<path_big>images/collection/12/big/</path_big>
+						<path_small>images/collection/12/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+						</vignettes>
+					</images>
+				</item>
+				
+				<item>
+					<texts>
+						<title><![CDATA[suprimmer cet item]]></title>
+						<address><![CDATA[1867, Ernolsheim]]></address>
+						<desc><![CDATA[Desc fr lorem isuprua relkja poiru qspdf azir aopziur sur pazir ypsqiud azk erpoazui rpoaziure.]]></desc>
+						<materiau_desc><![CDATA[Materiau lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur tortor in scelerisque bibendum.]]>
+						</materiau_desc>
+						<legend><![CDATA[Légende associée à l'image]]></legend>
+					</texts>
+					<incontournable>0</incontournable>
+					<filtre>1</filtre>
+					
+					<images>
+						<path_big>images/collection/0/big/</path_big>
+						<path_small>images/collection/0/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+						</vignettes>
+					</images>
+				</item>
+				
+				<item>
+					<texts>
+						<title><![CDATA[suprimmer cet item]]></title>
+						<address><![CDATA[1867, Ernolsheim]]></address>
+						<desc><![CDATA[Desc fr lorem isuprua relkja poiru qspdf azir aopziur sur pazir ypsqiud azk erpoazui rpoaziure.]]></desc>
+						<materiau_desc><![CDATA[Materiau lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur tortor in scelerisque bibendum.]]>
+						</materiau_desc>
+						<legend><![CDATA[Légende associée à l'image]]></legend>
+					</texts>
+					<incontournable>0</incontournable>
+					<filtre>1</filtre>
+					
+					<images>
+						<path_big>images/collection/1/big/</path_big>
+						<path_small>images/collection/0/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+						</vignettes>
+					</images>
+				</item>
+				
+				<item>
+					<texts>
+						<title><![CDATA[suprimmer cet item]]></title>
+						<address><![CDATA[1867, Ernolsheim]]></address>
+						<desc><![CDATA[Desc fr lorem isuprua relkja poiru qspdf azir aopziur sur pazir ypsqiud azk erpoazui rpoaziure.]]></desc>
+						<materiau_desc><![CDATA[Materiau lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur tortor in scelerisque bibendum.]]>
+						</materiau_desc>
+						<legend><![CDATA[Légende associée à l'image]]></legend>
+					</texts>
+					<incontournable>0</incontournable>
+					<filtre>1</filtre>
+					
+					<images>
+						<path_big>images/collection/1/big/</path_big>
+						<path_small>images/collection/1/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+						</vignettes>
+					</images>
+				</item>
+
+				<item>
+					<texts>
+						<title><![CDATA[suprimmer cet item]]></title>
+						<address><![CDATA[1867, Ernolsheim]]></address>
+						<desc><![CDATA[Desc fr lorem isuprua relkja poiru qspdf azir aopziur sur pazir ypsqiud azk erpoazui rpoaziure.]]></desc>
+						<materiau_desc><![CDATA[Materiau lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur tortor in scelerisque bibendum.]]>
+						</materiau_desc>
+						<legend><![CDATA[Légende associée à l'image]]></legend>
+					</texts>
+					<incontournable>0</incontournable>
+					<filtre>2</filtre>
+					
+					<images>
+						<path_big>images/collection/1/big/</path_big>
+						<path_small>images/collection/1/min/</path_small>
+						
+						<image>image.png</image>
+						<vignettes>
+							<item>vignettes/detail-1.png</item>
+							<item>vignettes/detail-2.png</item>
+						</vignettes>
+					</images>
+				</item>
+
+			</items>
+
+
+			
+
+			
+		</collection>
+		
+	</en>
+</data>

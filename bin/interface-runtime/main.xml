@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<asxml>
+	<ConstantesProvider xmlList="{file:xml/constantes.xml}" />
+	<ConstantesProvider xmlList="{file:xml/data-en.xml}" />
+	<ConstantesProvider xmlList="{file:xml/data-fr.xml}" />
+	<ConstantesProvider xmlList="{file:xml/data-de.xml}" />
+	
+	
+	<ASCodeHome id="ascodehome" />
+	<ASCodeMenu id="ascodemenu" />
+	<ASCodeCollection id="ascodecollection" />
+	<ASCodeHistoire id="ascodehistoire" />
+	<ASCodeTerritoire id="ascodeterritoire" />
+	<ASCodeGameCompose id="ascodegamecompose" />
+	<ASCodeGameMemory id="ascodegamememory" />
+	<ASCodeGameCoiffe id="ascodegamecoiffe" />
+	
+	<ASCodeMain id="ascodemain" />
+	
+	
+	<!--
+	<img src="images/bg.jpg" />
+	-->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<is id="screen_menu">
+		<is>
+			<!-- 
+			<is id='asset_bg_section' template='asset_bg_section'></is>
+			 -->
+			<is id='screen_menu_footer' marginTop='1720px'>
+				<is>
+					<is id='asset_footerbg2' template='asset_footerbg2'></is>
+					<is id='asset_footerbg' template='asset_footerbg' marginLeft='38px'></is>
+				</is>
+			</is>
+			
+			
+			
+			
+			<is id='zone_menu_1_' marginTop='909px'>
+			
+				<is id='btn_collection' onmousedown='as:#ascodemenu  onClickMenu  screen_collection' clickableMargin='0' clickableSprite="false">
+					<is>
+						<is id='asset_collection_bg' template='asset_collection_bg'></is>
+						<Text id="btn_collection_text" marginLeft='40px' marginTop='184px' embedFonts='true' width='420' multiline="true"><![CDATA[]]></Text>
+						<is id='asset_collection_icon' template='asset_collection_icon' marginLeft='40px' marginTop='37px'></is>
+					</is>
+				</is>
+				
+				<is id='btn_notre_territoire' onmousedown='as:#ascodemenu  onClickMenu  screen_territoire' clickableMargin='0' marginLeft='445px' marginTop='162px' clickableSprite="false">
+					<is>
+						<is id='asset_notre_territoire_bg' template='asset_notre_territoire_bg'></is>
+						<Text id='btn_notre_territoire_text' marginLeft='96px' marginTop='35px' embedFonts='true' width='490' multiline="true"><![CDATA[]]></Text>
+					</is>
+				</is>
+				
+				<is id='btn_histoire_coiffe' onmousedown='as:#ascodemenu  onClickMenu  screen_histoire' clickableMargin='0' marginLeft='540px' clickableSprite="false">
+					<is>
+						<is id='asset_histoire_bg' template='asset_histoire_bg'></is>
+						<Text id="btn_histoire_coiffe_text" marginLeft='90px' marginTop='35px' embedFonts='true' width='405' multiline="true"><![CDATA[]]></Text>
+					</is>
+				</is>
+				
+				<is id='btn_game_compose' onmousedown='as:#ascodemenu  onClickMenu  screen_game_compose' clickableMargin='0' marginLeft='720px' marginTop='324px' clickableSprite="false">
+					<is>
+						<is id='asset_game_compose_bg' template='asset_game_compose_bg'></is>
+						<Text id="btn_game_compose_text" marginLeft='50px' marginTop='357px' embedFonts='true' width='360' multiline="true"><![CDATA[]]></Text>
+						<is id='asset_game_compose_icon' template='asset_game_compose_icon' marginLeft='112px' marginTop='103px' touchable="false"></is>
+					</is>
+				</is>
+				
+				<is id='btn_game_coiffe' onmousedown='as:#ascodemenu  onClickMenu  screen_game_coiffe' clickableMargin='0' marginLeft='157px' marginTop='324px' clickableSprite="false">
+					<is>
+						<is id='asset_game_coiffe_bg' template='asset_game_coiffe_bg'></is>
+						<Text id='btn_game_coiffe_text' marginLeft='87px' marginTop='356px' embedFonts='true' width='450' multiline="true"><![CDATA[]]></Text>
+						
+						<is id='asset_game_coiffe_icon' template='asset_game_coiffe_icon' marginLeft='254px' marginTop='141px' touchable="false"></is>
+					</is>
+				</is>
+				
+				<is id='btn_game_memory' onmousedown='as:#ascodemenu  onClickMenu  screen_game_memory' clickableMargin='0' marginTop='324px' clickableSprite="false">
+					<is>
+						<is id='asset_game_memory_bg' template='asset_game_memory_bg'></is>
+						<is id='asset_game_memory_icon' template='asset_game_memory_icon' marginLeft='73px' marginTop='126px' touchable="false"></is>
+						<Text id='game_memory_text' marginLeft='40px' marginTop='42px' embedFonts='true' width='360'><![CDATA[]]></Text>
+					</is>
+				</is>
+			</is>
+			
+			
+			<is id='btn_incontournables' onmousedown='as:#ascodemenu  onClickMenu  screen_incontournables' clickableMargin='0' marginLeft='0px' marginTop='260px' clickableSprite="false">
+				<is>
+					<is id="btn_incontournables_diapo" touchable="false"></is>
+					<is id='asset_btn_like' template='asset_btn_like' marginLeft='903px' marginTop="350px"></is>
+					<Text id='btn_incontournables_text' marginLeft="39px" marginTop='548px' embedFonts='true' width='800'><![CDATA[]]></Text>
+				</is>
+			</is>
+			
+		</is>
+	</is>
+	
+	
+	
+	
+	
+	
+	
+	
+	<is id="screen_collection">
+		<is>
+			<is id="footer_bg">
+				<is template="asset_footer_bg" marginTop='1720px' />
+			</is>
+			
+			<is id='list_articles' marginLeft='1px' marginTop='422px'>
+				<is>
+					<is id='asset_bg_listarticle' template='asset_bg_listarticle'></is>
+					<is id="list_articles_items" marginLeft='44px' marginTop='32px' />
+					
+				</is>
+			</is>
+			
+			
+			
+			<is id="collection_footer">
+				<is id="footer_inc" marginTop='1720px' onmousedown='as:#ascodemenu  onClickMenu  screen_collection' clickableMargin='0'>
+					<is>
+						<is template="asset_bg_footer_inc" />
+						<Text id='text_shortcut_collection' marginLeft='103px' marginTop='56px' embedFonts='true' multiline='true' width='420'><![CDATA[]]></Text>
+						<is id='asset_shortcut_collection_icon' template='asset_shortcut_collection_icon' marginLeft='50px' marginTop='60px'></is>
+					</is>
+				</is>
+				
+				<is id='zone_pagination' marginLeft="0px" marginTop='1798px'>
+					<is id='btn_pagination_left' onmousedown='as:#ascodecollection  onClickChangePage  -1' clickableMargin='40'>
+						<Text id='text_pagination_left' embedFonts='true' multiline='true' width='200' marginLeft="-50px" marginTop="2px"><![CDATA[]]></Text>
+						<is id='asset_btn_pagination_left' template='asset_btn_pagination_left' marginLeft='173px' marginTop='2px'></is>
+					</is>
+					<is id='btn_pagination_right' onmousedown='as:#ascodecollection  onClickChangePage  +1' clickableMargin='40'>
+						<Text id='text_pagination_right' marginLeft='63px' marginTop="2px" embedFonts='true' multiline='true' width='200'><![CDATA[]]></Text>
+						<is id='asset_btn_pagination_right' template='asset_btn_pagination_right' marginTop='2px'></is>
+					</is>
+					
+					<is id='pagination_puces' marginTop='22px'></is>
+				</is>
+				
+				
+				
+				<is id="collection_detail">
+				
+					<is id="detail_zone_top">
+						<is>
+							
+							<is>
+								<is id='asset_detail_bg' template='asset_detail_bg' marginTop='260px'></is>
+								
+								
+							</is>
+							
+							<is id="detail_slidable">
+								
+								
+								
+								<Text id='legend_coiffe_text' embedFonts='true' width='300' marginLeft="50px" marginTop='1006px'><![CDATA[]]></Text>
+								
+								<is id='help_details' marginLeft='730px' marginTop='1145px'>
+									<Text id="text_help_details" embedFonts='true' multiline='true' width='300'><![CDATA[]]></Text>
+								</is>
+								
+								
+								<is id="collection_image_big" marginLeft="240px" marginTop="422px">
+									<is>
+										<Component_image_collection_big id="component_img_col_big" marginLeft="-240px" marginTop="-160px" />
+										
+										<is id='asset_icon_helpdrag' template='asset_icon_helpdrag' marginLeft='216px' marginTop='195px' touchable="false"></is>
+										
+										<is id='btn_zoom' onclick='as:#ascodecollection  onClickZoom  true' clickableMargin='40' clickableMargin_right="0" marginLeft='-190px' marginTop='502px'>
+											<is id='asset_btn_zoom' template='asset_btn_zoom' marginLeft='58px' marginTop='-14px'></is>
+											<Text id='text_btn_zoom' marginLeft='0px' marginTop='0px' embedFonts='true' multiline='true' width='150'><![CDATA[]]></Text>
+										</is>
+										
+										<is id='btn_dezoom' onclick='as:#ascodecollection  onClickZoom  false' clickableMargin='40' clickableMargin_right="0" marginLeft='-190px' marginTop='502px'>
+											<is id='asset_btn_dezoom' template='asset_btn_dezoom' marginLeft='58px' marginTop='-14px'></is>
+											<Text id='text_btn_dezoom' marginLeft='0px' marginTop='0px' embedFonts='true' multiline='true' width='150'><![CDATA[]]></Text>
+										</is>
+										
+									</is>
+								</is>
+								
+								
+								
+								
+								
+								<is id='collection_vignette_big' marginLeft="552px" marginTop="732px">
+									<is id="collection_vignette_big_sub">
+										<Component_vignette_big id="component_vignette_big" x="-312" y="-310" />
+									</is>
+								</is>
+								
+								
+								<is id='list_details_min' marginLeft="44px" marginTop="1113px">
+									
+								</is>
+								
+							</is>
+							
+							
+							<is>
+								<is id='btn_detail_back' onmousedown='as:#ascodecollection  onClickDetailBack' clickableMargin='40' marginLeft='49px' marginTop='299px'>
+									<Text id='btn_detail_back_text' marginLeft='73px' marginTop="7px" embedFonts='true' width='800'><![CDATA[]]></Text>
+									<is id='asset_btn_detail_back' template='asset_btn_detail_back' marginTop='0px'></is>
+								</is>
+							</is>
+							
+							
+							<is id='detail_btn_navigations' marginLeft='54px' marginTop='686px'>
+								<is id='btn_detail_left' onmousedown='as:#ascodecollection  onClickDetailChange  -1' clickableMargin='40'>
+									<Text id='detail_btn_navigation_left' marginLeft='44px' embedFonts='true' multiline='true' width='150'><![CDATA[]]></Text>
+									<is id='asset_detail_btn_navigation_left' template='asset_detail_btn_navigation_left' marginTop='3px'></is>
+								</is>
+								<is id='btn_detail_right' onmousedown='as:#ascodecollection  onClickDetailChange  +1' clickableMargin='40' marginLeft='861px'>
+									<Text id='detail_btn_navigation_right' marginLeft="-83px" embedFonts='true' multiline='true' width='150'><![CDATA[]]></Text>
+									<is id='asset_detail_btn_navigation_right' template='asset_detail_btn_navigation_right' marginLeft='83px' marginTop='3px'></is>
+								</is>
+							</is>
+							
+							
+							<is id='detail_btn_navigations_vignettes' marginLeft='54px' marginTop='686px'>
+								<is id='btn_detail_vignette_left' onmousedown='as:#ascodecollection  onClickVignetteChange  -1' clickableMargin='40'>
+									<Text id='detail_btn_navigation_vignette_left' marginLeft='44px' embedFonts='true' multiline='true' width='150'><![CDATA[]]></Text>
+									<is id='asset_detail_btn_navigation_vignette_left' template='asset_detail_btn_navigation_left' marginTop='3px'></is>
+								</is>
+								<is id='btn_detail_vignette_right' onmousedown='as:#ascodecollection  onClickVignetteChange  +1' clickableMargin='40' marginLeft='861px'>
+									<Text id='detail_btn_navigation_vignette_right' marginLeft="-83px" embedFonts='true' multiline='true' width='150'><![CDATA[]]></Text>
+									<is id='asset_detail_btn_navigation_vignette_right' template='asset_detail_btn_navigation_right' marginLeft='83px' marginTop='3px'></is>
+								</is>
+							</is>
+							
+						</is>
+						
+					</is>
+					
+					<is id='detail_zone_text' marginTop='1233px'>
+						<is>
+							<is id='asset_bg_detail' template='asset_bg_detail'></is>
+							
+							<Text id='detail_title_text' marginLeft='50px' marginTop='42px' embedFonts='true' width='625'><![CDATA[]]></Text>
+							
+							<Text id='detail_desc_text' marginLeft='50px' marginTop='155px' embedFonts='true' multiline='true' width='625'><![CDATA[]]></Text>
+							
+							<Text id='detail_address_text' marginLeft='50px' marginTop='93px' embedFonts='true' width='625'><![CDATA[]]></Text>
+							
+							
+							<Text id='detail_materiaux_title_text' marginLeft='730px' marginTop='93px' embedFonts='true' width='300'><![CDATA[<span class='MS700_19_FFFFFF'>MATÉRIAUX & CONFECTION</span>]]></Text>
+							
+							<Text id='detail_materiaux_text' marginLeft='730px' marginTop='155px' embedFonts='true' multiline='true' width='300'><![CDATA[]]></Text>
+							
+						</is>
+					</is>
+					
+				</is>
+				
+			</is>
+		</is>
+	</is>
+	
+	
+	
+	
+	
+	<is id="screen_histoire">
+		
+		<is>
+			<is id="histoire_bg">
+				<is id='asset_bg_histoire' template='asset_bg_histoire' marginTop='423px'></is>
+			</is>
+			
+			<is id="histoire_container">
+				<is>
+					
+					<is id='histoire_content' marginLeft='50px' marginTop='548px'>
+						
+						
+						<ScrollTrackBG x="-50" y="863" mouseEnabled="false" mouseChildren="false" />
+						
+						<Scrollbar id="scroll_histoire" touchMode="true" template="ScrollbarSkin" width="890" height="1040" bottom="200" arrow="false" always_visible="true" handleAutoSize="false">
+							<is id="histoire_content_scrollable">
+								<is id="histoire_content_scrollable_sub"></is>
+							</is>
+						</Scrollbar>
+						
+						<is id='asset_histoire_cacheside' template='asset_histoire_cacheside' marginLeft='830px' marginTop='78px' visible="true"></is>
+						
+					</is>
+					
+				</is>
+			</is>
+			
+			<is id='menu_histoire' marginTop='423px'>
+				<is>
+					<is id='asset_bg_histoire_menuitem' template='asset_bg_histoire_menuitem'></is>
+					<is id="menu_histoire_list" marginLeft='55px' marginTop='29px'></is>
+				</is>
+			</is>
+		</is>
+		
+	</is>
+	
+	
+	
+	
+	
+	<is id="screen_territoire">
+		
+		<is>
+			<is id="territoire_bg">
+				<is id='asset_bg_territoire' template='asset_bg_histoire' marginTop='423px'></is>
+			</is>
+			
+			<is id="territoire_container">
+				<is>
+					
+					<is id='territoire_content' marginLeft='50px' marginTop='548px'>
+						
+						
+						<ScrollTrackBG x="-50" y="863" mouseEnabled="false" mouseChildren="false" />
+						
+						<Scrollbar id="scroll_territoire" touchMode="true" template="ScrollbarSkin" width="890" height="1040" bottom="200" arrow="false" always_visible="true" handleAutoSize="false">
+							<is id="territoire_content_scrollable">
+								<is id="territoire_content_scrollable_sub"></is>
+							</is>
+						</Scrollbar>
+						
+						<is id='asset_territoire_cacheside' template='asset_histoire_cacheside' marginLeft='830px' marginTop='78px' visible="true"></is>
+						
+					</is>
+					
+				</is>
+			</is>
+			
+			<is id='menu_territoire' marginTop='423px'>
+				<is>
+					<is id='asset_bg_territoire_menuitem' template='asset_bg_histoire_menuitem'></is>
+					<is id="menu_territoire_list" marginLeft='55px' marginTop='29px'></is>
+				</is>
+			</is>
+		</is>
+		
+	</is>
+	
+	
+	
+	
+	
+	
+	
+	
+	<is id="screen_game_memory">
+		<is>
+			<is id='asset_memory_bg' marginTop='422px'>
+				<is template='asset_memory_bg' />
+			</is>
+			
+			<is id="screen_game_memory_content">
+				<is>
+					<is id='memory_container_game' marginLeft='72px' marginTop='494px'>
+						
+					</is>
+					
+					
+					<is id='memory_footer' marginLeft='0px' marginTop='1803px'>
+						<Text id='text_memory_footer' marginLeft='0px' marginTop="16px" embedFonts='true'><![CDATA[]]></Text>
+						<is id='asset_memory_footer' template='asset_memory_footer'></is>
+					</is>
+					
+					
+					<is id='btn_restart_memory' onmousedown='as:#ascodegamememory  clickRestart' clickableMargin='60' marginLeft='0px' marginTop='1803px'>
+						<Text id='text_restart_memory' embedFonts='true' width='1080' marginTop="16px"><![CDATA[]]></Text>
+						<is id='asset_restart_memory' template='asset_restart_memory' marginLeft='0px' marginTop='1px'></is>
+					</is>
+				</is>
+			</is>
+			
+		</is>
+	</is>
+	
+	
+	
+	
+	
+	<is id="screen_game_compose">
+		<is>
+			<is id="game_compose_container" marginTop="421px">
+				
+				<is id='asset_bg_gamecompose'>
+					<is template='asset_bg_gamecompose' marginLeft='0px' marginTop='0px'></is>
+				</is>
+				
+				<is id="gamecompose_content">
+					<is>
+						
+						
+						
+						
+						<is id="game_compose_bottom">
+							<is id='btn_compose_right' onmousedown='as:#ascodegamecompose  onClickNavig  +1' clickableMargin='40' clickableMargin_right="130" clickableMargin_left="-50" marginTop="1351px" marginLeft="664px">
+							
+								<Text id='text_btn_compose_right' marginLeft='0px' marginTop='0px' embedFonts='true' multiline='true' width='285'><![CDATA[]]></Text>
+								
+								<is id='asset_btn_compose_right' template='asset_btn_compose_right' marginLeft='302px' marginTop='-6px'></is>
+							</is>
+							
+							<is id='btn_compose_left' onmousedown='as:#ascodegamecompose  onClickNavig  -1' clickableMargin='40' marginTop="1351px" marginLeft="48px">
+								<Text id='text_btn_compose_left' marginLeft='81px' marginTop='0px' embedFonts='true' multiline='true' width='285'><![CDATA[]]></Text>
+								
+								<is id='asset_btn_compose_left' template='asset_btn_compose_left' marginLeft='0px' marginTop='-6px'></is>
+							</is>
+							
+							<is template="asset_gamecompose_separator" marginLeft="18px" marginTop="890px" />
+							
+							<is id='compose_zone_steps' marginLeft='53px' marginTop='918px'>
+								<is id="compose_zone_steps_sub">
+									
+									<Text id='text_compose_step_title' embedFonts='true' width='900' marginLeft="37px"><![CDATA[]]></Text>
+									
+									<Text id='text_compose_step_desc' marginTop='48px' embedFonts='true' width='900' marginLeft="37px"><![CDATA[]]></Text>
+									<Text id='text_compose_step_desc2' marginTop='85px' embedFonts='true' width='900' marginLeft="37px"><![CDATA[]]></Text>
+									
+									<is id='gamecompose_list_choice' marginLeft='0px' marginTop='120px'>
+									</is>
+								</is>
+							</is>
+							
+						</is>
+						
+						<is id='gamecompose_imgbig_container' marginLeft='0px' marginTop='-400px'></is>
+						
+						<is id="gamecompose_consignes" marginTop='497px'>
+							<Text id='text_gamecompose_consigne'  marginLeft='150px' embedFonts='true' multiline='true' width='780'><![CDATA[]]></Text>
+							
+							<is id='btn_gamecompose_start' onmousedown='as:#ascodegamecompose  onClickStart' clickableMargin='60' marginLeft='517px' marginTop='270px'>
+								<is id='asset_gamecompose_start' template='asset_gamecompose_start'></is>
+							</is>
+							<is id='asset_gamecompose_helpclick' template='asset_gamecompose_helpclick' marginLeft='598px' marginTop='341px'></is>
+						</is>
+						
+						
+						
+						<is id="gamecompose_feedback" marginTop='900px'>
+							<Text id='text_gamecompose_feedback'  marginLeft='150px' embedFonts='true' multiline='true' width='780' height="260" debugBorder="false" valign="center"><![CDATA[]]></Text>
+							<!-- 
+							<is id='btn_gamecompose_replay' onmousedown='as:#ascodegamecompose  onClickReplay' clickableMargin='60' marginLeft='517px' marginTop='270px'>
+								<is id='asset_gamecompose_replay' template='asset_gamecompose_start'></is>
+							</is>
+							 -->
+							
+							<is id='btn_gamecompose_replay' onmousedown='as:#ascodegamecompose  onClickReplay' clickableMargin='60' marginLeft='340px' marginTop='320px'>
+								<Text id='text_compose_restart' embedFonts='true' width='300' marginLeft="-80px"><![CDATA[]]></Text>
+								<is template='asset_compose_restart' marginLeft='242px' marginTop='-16px'></is>
+							</is>
+							
+						</is>
+						
+						
+						
+					</is>
+				</is>
+			
+			</is>
+		</is>
+	</is>
+	
+	
+	
+	
+	
+	<is id="screen_game_coiffe">
+		<is>
+			<is id="game_coiffe_container" marginTop="421px">
+				
+				<is id='asset_bg_gamecoiffe'>
+					<is template='asset_bg_gamecoiffe'></is>
+				</is>
+				
+				<is id="gamecoiffe_content">
+					<is>
+						<is id='question_filarianne' marginLeft='374px' marginTop='1295px'>
+							<Component_arianne id='component_arianne'></Component_arianne>
+						</is>
+						
+						
+						
+						<is id="step_quizz">
+							<is>
+								<is id='zone_gamecoiffe_question' marginLeft='0px' marginTop='463px'>
+									<is>
+										<Component_quizz_imgtop id='asset_gamecoiffe_imgtop' marginLeft='369px' marginTop='-398px'></Component_quizz_imgtop>
+										
+										<Text id='text_question_title' marginLeft='100px' embedFonts='true' width='880'><![CDATA[<span class='FREB_36_FFFFFF'>QUestion 1</span>]]></Text>
+										
+										<Text id='text_question_desc' marginLeft='50px' marginTop='75px' embedFonts='true' multiline='true' width='980'><![CDATA[]]></Text>
+									</is>
+								</is>
+								
+								<is id='zone_gamecoiffe_solution' marginLeft='0px' marginTop='740px'>
+									
+									<is>
+										<Text id='text_gamecoiffe_result_correct' marginLeft='100px' marginTop='50px' embedFonts='true' width='880'><![CDATA[]]></Text>
+										<Text id='text_gamecoiffe_result_wrong' marginLeft='100px' marginTop='50px' embedFonts='true' width='880'><![CDATA[]]></Text>
+										
+										<Text id='text_gamecoiffe_result_desc' marginTop='133px' marginLeft='25px' embedFonts='true' multiline='true' width='1030'><![CDATA[]]></Text>
+										
+										<is id='asset_gamecoiffe_valid' template='asset_gamecoiffe_valid' marginLeft='518px' marginTop="-31px"></is>
+										<is id='asset_gamecoiffe_wrong' template='asset_gamecoiffe_wrong' marginLeft='518px' marginTop="-31px"></is>
+										
+										<is id='btn_quizz_next' onmousedown='as:#ascodegamecoiffe  onClickNext' clickableMargin='60' marginLeft='431px' marginTop='430px'>
+											<Text id='text_quizz_next' embedFonts='true' multiline='true' width='200' marginLeft="-52px" marginTop="9px"><![CDATA[]]></Text>
+											<is id='asset_quizz_next' template='asset_quizz_next' marginLeft='164px' marginTop='3px'></is>
+										</is>
+										
+									</is>
+								</is>
+								
+								
+								<is id="list_solutions" marginLeft='16px' marginTop='709px'>
+									<is id="list_solutions_sub">
+										<Component_solution_item id='component_solution_item'></Component_solution_item>
+									</is>
+								</is>
+								
+								<is id='asset_gamecoiffe_helpclick' template='asset_gamecoiffe_helpclick' marginLeft='923px' marginTop='872px'></is>
+								
+								<is id='quizz_footer' marginLeft='0px' marginTop='1387px'>
+									<Text id='text_quizz_footer' marginLeft='0px' marginTop="16px" embedFonts='true'><![CDATA[]]></Text>
+									<is id='asset_quizz_footer' template='asset_memory_footer'></is>
+								</is>
+							</is>
+						</is>
+						
+						
+						
+						<is id="step_quizz_end" marginTop="693px">
+							
+							<is>
+								<is id='asset_gamecoiffe_imgtop2' template='asset_gamecoiffe_imgtop2' marginLeft='194px' marginTop='-709px'></is>
+								
+								<Text id='text_gamecoiffe_end_title' marginLeft='100px' marginTop='50px' embedFonts='true' width='880'><![CDATA[]]></Text>
+									
+								<Text id='text_gamecoiffe_end_desc' marginTop='133px' marginLeft='100px' embedFonts='true' multiline='true' width='880'><![CDATA[]]></Text>
+								
+								<is id='btn_quizz_restart' onmousedown='as:#ascodegamecoiffe  onClickRestart' clickableMargin='60' marginLeft='380px' marginTop='475px'>
+									<Text id='text_quizz_restart' embedFonts='true' width='300' marginLeft="-80px"><![CDATA[]]></Text>
+									<is id='asset_quizz_restart' template='asset_quizz_restart' marginLeft='242px' marginTop='-16px'></is>
+								</is>
+								
+							</is>
+						</is>
+					</is>
+				</is>
+				
+				
+			</is>
+		</is>
+	</is>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<is id="screen_home">
+		<is>
+			
+			<is id="video_container">
+				<is id="video_container_sub"></is>
+			</is>
+			
+			<!-- 
+			<is id="home_bg">
+				<is id='asset_home_bg' template='asset_home_bg'></is>
+			</is>
+			 -->
+			
+			<is id='home_zonecenter' marginLeft='271px' marginTop='755px'>
+				<is>
+					
+					<Text id='home_title' embedFonts='true' multiline='true' marginLeft="-271px" width='1080'><![CDATA[]]></Text>
+					<Text id='home_subtitle' marginTop='260px' embedFonts='true' marginLeft="-271px" width='1080'><![CDATA[]]></Text>
+					
+					<is id='home_btns' marginLeft='140px' marginTop='330px'>
+						<is id='btn_fr' onmousedown='as:#ascodehome  onClickLang  fr' clickableMargin='9' clickableMargin_vert="30" clickableMargin_left="33">
+							<Text id='text_btn_fr' embedFonts='true' width='70' marginTop="20px"><![CDATA[<span class='MS900_29_FFFFFF'>FR</span>]]></Text>
+							<is id='asset_bg_btnlang_1_' template='asset_bg_btnlang'></is>
+						</is>
+						<is id='btn_en' onmousedown='as:#ascodehome  onClickLang  en' clickableMargin='9' clickableMargin_vert="30" marginLeft='93px'>
+							<Text id='text_btn_en' embedFonts='true' width='70' marginTop="20px"><![CDATA[<span class='MS900_29_FFFFFF'>EN</span>]]></Text>
+							<is id='asset_bg_btnlang_2_' template='asset_bg_btnlang'></is>
+						</is>
+						<is id='btn_de' onmousedown='as:#ascodehome  onClickLang  de' clickableMargin='9' clickableMargin_vert="30" clickableMargin_right="33" marginLeft='186px'>
+							<Text id='text_btn_de' embedFonts='true' width='70' marginTop="20px"><![CDATA[<span class='MS900_29_FFFFFF'>DE</span>]]></Text>
+							<is id='asset_bg_btnlang' template='asset_bg_btnlang'></is>
+						</is>
+					</is>
+				</is>
+			</is>
+		</is>
+	</is>
+	
+	
+	
+	
+	<is id="screen_credits">
+		<is>
+			<is id='bg_popup'>
+				<is template="asset_bg_poup"></is>
+			</is>
+			
+			<is id="credits_content">
+				<is>
+					<is id='btn_close_credits' onmousedown='as:#ascodehome  onCloseCredits' clickableMargin='70' marginLeft='510px' marginTop='1450px'>
+						<Text id='text_close_credits' marginLeft='-70px' marginTop="40px" embedFonts='true' width='200'><![CDATA[]]></Text>
+						<is id='asset_close_credits' template='asset_close_credits' marginLeft='0px' marginTop="-40px"></is>
+					</is>
+					<is marginLeft='247px' marginTop='523px'></is>
+					<Text id='text_credits' marginLeft='0px' marginTop='517px' embedFonts='true' multiline='true' width='1080'><![CDATA[<span class='MS300_15_FFFFFF'>CRÉDITS<br />Aenean sagittis nibh a arcu posuere laoreet sed eu nulla.<br />Mauris sem velit, iaculis non maximus eu.<br />COLLECTIONS<br />Lorem ipsum dolor sit amet<br />Consectetur adipiscing elit.<br />Nunc consectetur tortor in scelerisque bibendum.<br />PHOTOGRAPHIES<br />Pellentesque quis nunc luctus,<br />cursus elit id, suscipit urna.<br />Integer lorem metus, porta eu aliquet at, facilisis vel dolor.<br />RÉDACTION<br />Pellentesque quis nunc luctus, cursus elit id,<br />suscipit urna.<br />Integer lorem metus,<br />porta eu aliquet at, facilisis vel dolor.<br />CONCEPTION & RÉALISATION<br />Cursus elit id, suscipit urna</span>]]></Text>
+				</is>
+			</is>
+		
+		</is>
+	</is>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!------------------------------------------------------------>
+	<!-- elements constants -->
+	
+	<is id="footer_loghome">
+		<is id='asset_logohome' template='asset_logohome' marginLeft='953px' marginTop='1769px'></is>
+	</is>
+	
+	
+	<is id="subheader_collection" marginLeft='1px' marginTop='260px'>
+		<is>
+			<Component_header id='component_header'></Component_header>
+		</is>
+	</is>
+	
+	<is id='header' marginLeft='50px' marginTop='37px'>
+		<is>
+			<is template="asset_header_bg" marginLeft='-50px' marginTop='-37px' />
+			<is id='asset_deco_header' template='asset_deco_header' marginLeft='970px' marginTop='121px'></is>
+			
+			<Text id="header_title" embedFonts='true' width='500' multiline="true"><![CDATA[]]></Text>
+			
+			<is id='btn_langs' marginTop='143px' marginLeft="-2px">
+				<is id='btn_fr2' onmousedown='as:#ascodehome  onClickLangHeader  fr' clickableMargin='6' clickableMargin_vert='30' clickableMargin_left='30'>
+					<Text embedFonts='true' width='50'><![CDATA[<span class='MS900_29_FFFFFF'>FR</span>]]></Text>
+				</is>
+				<is id='btn_en2' onmousedown='as:#ascodehome  onClickLangHeader  en' clickableMargin='6' clickableMargin_vert='30' marginLeft='62px'>
+					<Text embedFonts='true' width='50'><![CDATA[<span class='MS900_29_FFFFFF'>EN</span>]]></Text>
+				</is>
+				<is id='btn_de2' onmousedown='as:#ascodehome  onClickLangHeader  de' clickableMargin='6' clickableMargin_vert='30' clickableMargin_right='30' marginLeft='126px'>
+					<Text embedFonts='true' width='50'><![CDATA[<span class='MS900_29_FFFFFF'>DE</span>]]></Text>
+				</is>
+			</is>
+			<is id='asset_copyright' onmousedown='as:#ascodehome  onClickCredits' clickableMargin='50'  marginLeft='970px' marginTop='14px'>
+				<is template='asset_copyright' />
+			</is>
+		</is>
+	</is>
+	
+	
+	
+	
+	
+	
+	
+	<!--
+	
+	<is class="fullscreen" visible="true">
+		
+		<is id="titleMain">
+			<is>
+				<is marginLeft="359px"><Text id="titleMain_text" embedFonts="true"><![CDATA[<span class="main_title">MÉMOIRE DE LA MER</span>]]></Text></is>
+				
+			</is>
+		</is>
+		
+		
+		<is id="home_btns">
+			<is>
+				<is btneffect="zoomEffect" onmousedown="as:#ascodemain  onClickStart  fr" clickableMargin="45"><is template="BtnStart_fr"  /></is>
+				<is btneffect="zoomEffect" onmousedown="as:#ascodemain  onClickStart  en" x="243" clickableMargin="45"><is template="BtnStart_en" /></is>
+			</is>
+		</is>
+		
+	</is>
+	
+	
+	
+	
+	
+	
+	
+	<is id="headerLang" visible="true">
+		<is>
+			<is btneffect="zoomEffect" onmousedown="as:#ascodemain  onClickLang  fr" clickableMargin="20"><is template="BtnLang_fr" /></is>
+			<is btneffect="zoomEffect" onmousedown="as:#ascodemain  onClickLang  en" clickableMargin="20" marginLeft="105px"><is template="BtnLang_en" /></is>
+			<is btneffect="zoomEffect" onmousedown="as:#ascodemain  onClickCredits" clickableMargin="20" marginLeft="210px"><is template="BtnCredits" /></is>
+		</is>
+	</is>
+	
+	
+	
+	<is id="cache_popup" template="CachePopup" visible="false" onmousedown="as:#ascodemain  closePopup" />
+	
+	<is id="popup" class="center" visible="false">
+		<is id="popup_" onmousedown="as:#ascodemain  closePopup">
+			<is id="popup_btnclose" template="BtnClosePopup"  />
+			<Text id="popup_text" class="hcenter" marginTop="48px" embedFonts="true" multiline="true" width="630" debugBorder="false"><![CDATA[]]></Text>
+		</is>
+	</is>
+	
+	-->
+	
+	
+</asxml>

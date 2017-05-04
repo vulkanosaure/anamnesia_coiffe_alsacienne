@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/3.7">
+  <id>COIFFEALSACIENNE</id>
+  <versionNumber>1.0</versionNumber>
+  <filename>COIFFEALSACIENNE</filename>
+  <name>COIFFE_ALSACIENNE</name>
+  
+  
+  <!-- prod-->
+  
+  <initialWindow>
+    <title>COIFFE_ALSACIENNE</title>
+    <content>COIFFEALSACIENNE.swf</content>
+    <systemChrome>none</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <minimizable>false</minimizable>
+    <maximizable>false</maximizable>
+    <resizable>false</resizable>
+    <x>0</x>
+    <y>0</y>
+  </initialWindow>
+  
+  
+  
+  <!-- debug-->
+   <!--
+  <initialWindow>
+    <title>COIFFE_ALSACIENNE</title>
+    <content>COIFFEALSACIENNE.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+	<width>534</width><height>958</height>
+	<x>0</x><y>0</y>
+  </initialWindow>
+  -->
+  
+  
+  
+  
+  <!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+</application>
