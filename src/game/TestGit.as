@@ -14,6 +14,12 @@ package game
 			
 		}
 		
+		
+		private function user2Conflict()
+		{
+			//this function was added by user 2 as a conflict attempt (the 2 push will be done in parallel)
+		}
+		
 	}
 
 }
